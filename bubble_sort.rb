@@ -1,5 +1,4 @@
 def bubble_sort(array)
-
   array.length.times do 
     sorted = true
     (array.length - 1).times do |j|
@@ -20,5 +19,3 @@ end
 
 
 main()
-
-# Attraversare tutto l'array, e ogni volta controllare l'elemento che sta alla destra di quello che sto controllando
